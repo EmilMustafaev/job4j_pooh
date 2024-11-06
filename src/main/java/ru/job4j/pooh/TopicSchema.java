@@ -3,7 +3,6 @@ package ru.job4j.pooh;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-
 public class TopicSchema implements Schema {
     private final ConcurrentHashMap<String, CopyOnWriteArrayList<Receiver>> receivers = new ConcurrentHashMap<>();
     private final ConcurrentHashMap<String, CopyOnWriteArrayList<String>> messages = new ConcurrentHashMap<>();
