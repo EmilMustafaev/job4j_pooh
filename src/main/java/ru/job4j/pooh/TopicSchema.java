@@ -42,5 +42,4 @@ public class TopicSchema implements Schema {
             }
         }
     }
-
 }
